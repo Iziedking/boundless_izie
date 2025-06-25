@@ -33,7 +33,6 @@ bash <(curl -fsSL https://raw.githubusercontent.com/Iziedking/boundless_izie/mai
 ## Step 3: Clone Boundless & Pick Tag
 ```bash
 git clone https://github.com/boundless-xyz/boundless
-cd boundless
 git checkout release-0.10          
 ```
 ---
