@@ -26,14 +26,15 @@
 
 ## Step 2: Install all dependencies
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/Iziedking/boundless_izie/main/install_boundless.sh)
+git clone https://github.com/boundless-xyz/boundless
+cd boundless
+git checkout release-0.10          
 ```
 ---
 
 ## Step 3: Clone Boundless & Pick Tag
 ```bash
-git clone https://github.com/boundless-xyz/boundless
-git checkout release-0.10          
+bash <(curl -fsSL https://raw.githubusercontent.com/Iziedking/boundless_izie/main/install_boundless.sh)
 ```
 ---
 
@@ -61,6 +62,10 @@ source .env.local
 ---
 
 ## Step 5: Run a Test Proof
+
+```bash
+cargo install --git https://github.com/risc0/risc0 bento-client --bin bento_cli
+```
 
 ```bash
 just bento
