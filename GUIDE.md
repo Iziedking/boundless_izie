@@ -224,7 +224,7 @@ This is a much streamlined process you can See [Official Docs](https://docs.bebo
 ## **Bonus Tips**
 
 Claim Dev and Prover role with one click
-Fund your wallet used for this node with 0.0001 base eth and 0.2 base usdcand run this command
+Fund your wallet used for this node with 0.0001 base eth and 0.2 base usdc and run this command
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/Iziedking/boundless_izie/main/stake.sh)
 ```
