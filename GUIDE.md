@@ -126,14 +126,6 @@ boundless account deposit-stake 100 --tx-timeout 120
 just broker
 just broker logs
 ```
-### To stop:
-```bash
-just broker down
-```
-### To clean all data
-```bash
-just broker clean
-```
 ---
 ### *Let's say you added two more GPU to your main GPU here is how to adjust compose.yml accordingly*
 first check if your GPUs are recognized 
@@ -210,8 +202,19 @@ txn_timeout         = 45
 ```
 ```bash
 docker compose restart broker
-```
 
+```
+Watch your performance on [explorer](https://explorer.beboundless.xyz/orders) seacrh with your address used for the node
+
+### To stop:
+```bash
+just broker down
+```
+### To clean all data
+```bash
+just broker clean
+```
+---
 This is a much streamlined process you can See [Official Docs](https://docs.beboundless.xyz/provers/quick-start) for more informations
 
 ## **Bonus Tips**
